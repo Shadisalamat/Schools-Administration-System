@@ -14,3 +14,9 @@ Django
 
 Vue js
 -----------------------------
+
+1- cd vue/cli
+
+2- npm install -g @vue/cli
+
+3- npm run serve
