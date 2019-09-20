@@ -27,12 +27,17 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# RolePermission
+
+ROLEPERMISSIONS_MODULE = 'main.roles'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'app.apps.AppConfig',
     'django.contrib.admin',
     'django.contrib.auth',
+    'rolepermissions',  #RolePermission
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',

@@ -5,7 +5,7 @@ Django
 ----------------------------
 1- cd django
 
-2- pip install django
+2- pip install -r requirements.txt
 
 3- py manage.py runserver                  // run server django
 
