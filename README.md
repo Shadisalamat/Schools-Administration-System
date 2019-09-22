@@ -1,4 +1,4 @@
-Schools-Administration-System
+Schools-Administration-System (SAS)
 Django
 1- cd django
 
