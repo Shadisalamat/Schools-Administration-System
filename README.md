@@ -77,6 +77,7 @@ ALLOWED_HOSTS = ['192.168.1.239']
 
 python3 manage.py runserver 192.168.1.239:8000
 
+------------------------------------
 install npm
 node -v
 
@@ -86,27 +87,6 @@ npm i -g @vue/cli
 
 vue create vue
 
-Vue CLI v3.11.0
-
-? Please pick a preset: Manually select features
-
-? Check the features needed for your project:
-
-? Babel ? TypeScript ? Progressive Web App (PWA) Support ? Router ? Vuex ? CSS Pre-processors ? Linter / Formatter ?? Unit Testing ? E2E Testing
-
-Vue CLI v3.11.0
-
-? Please pick a preset: Manually select features
-
-? Check the features needed for your project: Babel, Router, Vuex, Linter
-
-? Use history mode for router? (Requires proper server setup for index fall back in production) Yes ? Pick a linter / formatter config: ESLint with error prevention only ESLint + Airbnb config ESLint + Standard config ? ESLint + Prettier
-
-Vue CLI v3.11.0 ? Please pick a preset: Manually select features ? Check the features needed for your project: Babel, Router, Vuex, Linter ? Use history mode for router? (Requires proper server setup for index fall back in production) Yes ? Pick a linter / formatter config: Prettier ? Pick additional lint features: (Press to select, to toggle al l, to invert selection) ?? Lint on save ? Lint and fix on commit
-
-? In dedicated config files
-
-Vue CLI v3.11.0 ? Please pick a preset: Manually select features ? Check the features needed for your project: Babel, Router, Vuex, Linter ? Use history mode for router? (Requires proper server setup for index fall back in production) Yes ? Pick a linter / formatter config: Prettier ? Pick additional lint features: (Press to select, to toggle al l, to invert selection)Lint on save ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In d edicated config files ? Save this as a preset for future projects? (y/N) N
 
 $ cd vue
 
@@ -116,7 +96,8 @@ vue ui
 
 http://linux-dak6:8080/
 
-kill Process:
+---------------------------------
+kill Process windows:
 
 netstat -ano | findstr 127.0.0.1
 
