@@ -108,3 +108,25 @@ kill Process windows:
 netstat -ano | findstr 127.0.0.1
 
 taskkill /F /PID 1596
+--------------------------
+quide  to change the repo 
+1- fork from https://github.com/sohepalslamat/Schools-Administration-System.git
+2- creat folder 
+3- git clone  https://github.com/sohepalslamat/Schools-Administration-System.git
+4- go to Visual Studio Code 
+5-open Terminal  
+###6-7 only one time ! 
+6-  git remote add  origin https://github.com/Shadisalamat/Schools-Administration-System-master
+7 - git remote add   upstream        https://github.com/sohepalslamat/Schools-Administration-System.git
+##### change what do you want and add the changes to stages  .......
+6- git add .
+7- git commit -m "Hallo this is my changes "
+8- git push orgin master 
+9-pull request to Remote (go to your github  ---> choose commit ---> pull request ---> send !!! )
+-----------------------------------------------------------
+############# get updates from remote repo ############################
+######ps ::: download files to local projects --->  you need to merge the changes with merge .....
+1-  git  fetch upstram master
+2-  git  merge upstream\master ###  if there is a conflict ---> you need to fix the Conflict manually .!!! 
+3- git push origin master 
+##############################

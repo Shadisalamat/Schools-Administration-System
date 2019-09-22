@@ -1,0 +1,132 @@
+[33mcommit 40956d634a058c77e81784d3c13ec36871520017[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 996976f ac9250d
+Author: Shadi Al Salamat <shadiengsalmat@gmail.com>
+Date:   Sun Sep 22 20:58:46 2019 +0200
+
+    i accept sohep changes
+
+[1mdiff --cc README.md[m
+[1mindex d975ba5,2f3ab00..e358933[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@@ -1,22 -1,106 +1,110 @@@[m
+[31m- # Schools-Administration-System[m
+[31m- [m
+[32m+ Schools-Administration-System (SAS)[m
+  [m
+  Django[m
+[31m- ----------------------------[m
+[31m- 1- cd django[m
+  [m
+[31m- 2- pip install -r requirements.txt[m
+[32m+ 1- cd django[m
+  [m
+[31m- 3- py manage.py runserver                  // run server django[m
+[32m+ 2- pip install django[m
+  [m
+[31m- ----[m
+[32m+ 3- py manage.py runserver // run server django[m
+  [m
+[32m +[m
+[32m++----[m
+[32m++=======[m
+  Vue js[m
+[31m- -----------------------------[m
+[31m- [m
+  1- cd vue/cli[m
+  [m
+  2- npm install package.json[m
+[32m++>>>>>>> upstream/master[m
+[32m+ [m
+[32m+ 3- npm run serve // run server vue[m
+[32m+ [m
+[32m+ Test - Alaa-sw[m
+[32m+ ------------------------------ sohep[m
+[32m+ 17.09.2019[m
+[32m+ [m
+[32m+ git clone https://github.com/Alaa-sw/Schools-Administration-System.git[m
+[32m+ [m
+[32m+ git pull --rebase[m
+[32m+ [m
+[32m+ git status[m
+[32m+ [m
+[32m+ git add .[m
+[32m+ [m
+[32m+ git commit -m "note"[m
+[32m+ [m
+[32m+ git push[m
+[32m+ [m
+[32m+ Installing Git[m
+[32m+ [m
+[32m+ Linux openSu?e leap 2015[m
+[32m+ [m
+[32m+ sudo -i[m
+[32m+ [m
+[32m+ mkdir demoproject[m
+[32m+ [m
+[32m+ chmod -R 777 demoproject[m
+[32m+ [m
+[32m+ cd demoproject[m
+[32m+ [m
+[32m+ zypper install git-core git[m
+[32m+ [m
+[32m+ git --version[m
+[32m+ [m
+[32m+ Create your identity First, you need to set your user name and email address with git. This is very important as every Git commits you made uses this information.[m
+[32m+ [m
+[32m+ git config --global user.name "Alaa Alswedan"[m
+[32m+ [m
+[32m+ git config --global user.email swedan.alaa@gmail.com[m
+[32m+ [m
+[32m+ install python3 python3-pip[m
+[32m+ [m
+[32m+ python3 -V[m
+[32m+ [m
+[32m+ pip3 -V[m
+[32m+ [m
+[32m+ pip3 install Django[m
+[32m+ [m
+[32m+ django-admin --version[m
+[32m+ [m
+[32m+ cd /var/www[m
+[32m+ [m
+[32m+ django-admin startproject django_app[m
+[32m+ [m
+[32m+ cd django_app[m
+[32m+ [m
+[32m+ python3 manage.py migrate[m
+[32m+ [m
+[32m+ python3 manage.py createsuperuser[m
+[32m+ [m
+[32m+ vi django_app/settings.py[m
+[32m+ [m
+[32m+ ALLOWED_HOSTS = ['192.168.1.239'][m
+[32m+ [m
+[32m+ python3 manage.py runserver 192.168.1.239:8000[m
+[32m+ [m
+[32m+ ------------------------------------[m
+[32m+ install npm[m
+[32m+ node -v[m
+[32m+ [m
+[32m+ npm -v[m
+[32m+ [m
+[32m+ npm i -g @vue/cli[m
+[32m+ [m
+[32m+ vue create vue[m
+[32m+ [m
+[32m+ [m
+[32m+ $ cd vue[m
+[32m+ [m
+[32m+ $ npm run serve[m
+[32m+ [m
+[32m+ vue ui[m
+[32m+ [m
+[32m+ http://linux-dak6:8080/[m
+[32m+ [m
+[32m+ ---------------------------------[m
+[32m+ kill Process windows:[m
+[32m+ [m
+[32m+ netstat -ano | findstr 127.0.0.1[m
+  [m
+[31m- 3- npm run serve            // run server vue[m
+[32m+ taskkill /F /PID 1596[m
