@@ -9,7 +9,7 @@ Django
 
 3- py manage.py runserver                  // run server django
 
-
+----
 
 
 Vue js
