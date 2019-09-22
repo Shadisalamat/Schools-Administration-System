@@ -1,5 +1,7 @@
 Schools-Administration-System (SAS)
+
 Django
+
 1- cd django
 
 2- pip install django
